@@ -1,0 +1,94 @@
+<meta charset="UTF-8">
+
+<strong>ENQUANTO</strong>
+<br/><br/>
+
+<script type="text/javascript">
+
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	// var anoCopa = parseInt(prompt("Ano copa: "))
+	// var limiteCopa = parseInt(prompt("Limite copa: "))
+
+	// while(anoCopa <= limiteCopa){
+	// 	mostra("Teve copa em: " + anoCopa);
+	// 	anoCopa += 4
+	// }
+
+	// mostra("FIM")
+
+// ======== ATIVIDADE 01 ----
+	// var cont = 0;
+	// ====== ATIVIDADE 01 ======
+	// while(cont <= 100){
+	// 	mostra("Número: " + cont);
+	// 	cont += 2
+	// }
+
+	// ====== ATIVIDADE 02 ====
+
+	// var cont = 30;
+	// while(cont <= 40){
+	// 	if (cont != 33 && cont != 37){
+	// 		mostra("Número: " + cont);
+	// 	}
+	// 	cont += 1
+	// }
+
+	// ========== ATIVIDADE 03 =====
+	// var cont = 20;
+
+	// while (cont >= 0){
+	// 	mostra("Número: " + cont);
+	// 	cont -= 1
+	// }
+
+	// ==== ATIVIDADE 04 ===
+
+	var loginCadastrado = "alura";
+    var senhaCadastrada = "alura321";
+
+
+
+    var cont = 1;
+
+    while (cont <= 3){
+    	alert("(Tentativa: " + cont + ")")
+    	var loginInformado = prompt("Informe seu login");
+    	var senhaInformada = prompt("Informe sua senha");
+    	if( loginCadastrado == loginInformado && senhaCadastrada == senhaInformada ) {
+
+        	alert("Bem-vindo ao sistema " + loginInformado);
+        	cont = 4
+    	} else {
+
+        	alert("Login inválido. Tente novamente.");
+        	cont += 1;	
+        	if (cont > 3){
+        		alert("Mais de 3 tentativas, tente mais tarde");
+        	}
+    	}
+
+
+
+    	
+ 
+    }
+
+    
+
+
+	mostra("FIM")
+
+
+
+
+</script>
+  

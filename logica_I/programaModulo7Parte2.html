@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+<strong>ENQUANTO-FOR</strong>
+<br/><br/>
+
+<script type="text/javascript">
+
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	mostra("While")
+	mostra("")
+	var multiplicador = 1;
+	var cont = 0
+
+	while(multiplicador <= 10){
+		mostra("7 X " + (cont+1) + " = " + (7*multiplicador));
+		multiplicador += 1
+	}
+	
+	mostra("")
+	mostra("FOR")
+	mostra("")
+	for(multiplicador = 1; multiplicador <= 10; multiplicador++){
+		mostra("7 X " + (multiplicador) + " = " + (7*multiplicador));
+	}
+
+	mostra("")
+	mostra("FIM")
+
+
+
+
+</script>
+  

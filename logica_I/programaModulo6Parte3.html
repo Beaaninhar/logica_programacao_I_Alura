@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<strong>ADIVINHAÇÃO</strong>
+<br/><br/>
+
+<script type="text/javascript">
+
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var numeroPensado = Math.round(Math.random() * 10) ;
+	console.log('isajsia', numeroPensado)
+	var chute = parseInt(prompt("Chute: "));
+
+
+	if (chute == numeroPensado){
+		mostra("Acertou")
+	}else{
+		mostra("ERRROU era: " + numeroPensado);	
+	}
+
+</script>
+  

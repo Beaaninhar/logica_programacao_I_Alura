@@ -1,0 +1,46 @@
+<meta charset="UTF-8">
+
+<strong>Idades</strong>
+<br/>
+
+<script type="text/javascript">
+
+	function pulaLinha() {
+		document.write("<br><hr>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var anoAtual = 2020;
+	// document.write("Ana tem " + (anoAtual - 2000) + " anos");
+	mostra("Ana tem " + (anoAtual - 2000) + " anos");
+	// document.write("Gaby tem " + (anoAtual - 2001) + " anos");
+	mostra("Gaby tem " + (anoAtual - 2001) + " anos");
+	// document.write("Pedro tem " + (anoAtual - 1985) + " anos");
+	mostra("Pedro tem " + (anoAtual - 1985) + " anos");
+
+	pulaLinha();
+	mostra("Diferença de idade:");
+	var idadeGaby = 19;
+	var idadeAna = 20;
+	var diferencaIdade = idadeAna - idadeGaby;
+	pulaLinha();
+	mostra("A diferença de idade entre Ana e Gaby é: " + diferencaIdade + " ano(s).");
+
+	pulaLinha();
+	mostra("O problema das gerações");	
+	var mediaFilhos = 28
+	var anoAtual = 2020
+	var anoDescobrimento = 1500
+	var quantidaGeracao = anoAtual - anoDescobrimento
+	var mediaGeracao = quantidaGeracao / mediaFilhos
+	mostra("<big>Média de gerações: " + mediaGeracao + " anos</big>")
+
+
+
+
+</script>
+  
